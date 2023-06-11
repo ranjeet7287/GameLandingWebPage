@@ -156,3 +156,72 @@ body{
         display: none;
     }
 }
+
+.dowload-container{
+    padding: 5rem 2rem;
+}
+#dc-p-1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+.grid-download{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gdc-1{
+    height: 20rem;
+    width: 15rem;
+    margin: 2rem;
+    margin-top: 5rem;
+}
+#gdi-1{
+    background:url(./photos/Rectangle\ 18.png) no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;
+    
+}
+#gdi-2{
+    background:url("./photos/image\ 4.png") no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;
+}
+#gdi-3{
+    background:url("./photos/image\ 3.png") no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;
+}
+#gdi-4{
+    background:url("./photos/Rectangle\ 56.png") no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;
+}
+.g-1{
+    display: flex;
+    color: #ffffff;
+    position: relative;
+    top: 75%;
+    padding: 10px;
+}
+.g-btn{
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: #cd5529;
+    color: #ffffff;
+    border: none;
+}
+@media screen and (max-width:1200px){
+    .grid-download{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
