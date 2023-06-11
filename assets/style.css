@@ -149,8 +149,13 @@ body{
     font-family: 600;
 }
 .playButton{
-    border: 4px solid rgb(1, 9, 16);
+    transition: 0.3s;
+    cursor: pointer;
 }
+.playButton:hover{
+    scale: 1.3;
+}
+
 @media screen and (max-width:950px){
     .main-content-2{
         display: none;
@@ -174,6 +179,11 @@ body{
     width: 15rem;
     margin: 2rem;
     margin-top: 5rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.gdc-1:hover{
+    scale: 1.2;
 }
 #gdi-1{
     background:url(./photos/Rectangle\ 18.png) no-repeat center center;
@@ -223,5 +233,131 @@ body{
     .grid-download{
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
     }
+}
+.premimum-game{
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 4rem;
+}
+#premimum-game-img{
+    height: 22rem;
+    width: 30rem;
+}
+.premimum-game-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0rem 4rem;
+}
+#premimum-game-head{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+#premimum-game-para{
+    color: #4e5355;
+}
+#premimum-game-btn{
+    padding: 1rem 2rem;
+    background-color: #e85b0f;
+    border: none;
+    color: #ffffff;
+    font-size: large;
+    cursor: pointer;
+}
+#premimum-game-btn-2{
+    padding: 1rem 2rem;
+    border: 2px solid #cd5529;
+    color: #cd5529;
+    font-size: large;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+@media screen and (max-width:1000px){
+    .premimum-game{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width:650px){
+    .premimum-game-content{
+        margin-top: 2rem;
+    }
+    #premimum-game-img{
+        width:20rem;
+    }
+    #premimum-game-btn-2{
+        margin-top: 1rem;
+    }
+}
+
+/* Reccommanded Game */
+.RG{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 1rem;
+}
+#RG-head{
+    font-size: 3rem;
+    font-weight: 600;
+}
+#left-arrow{
+    padding: 1rem 0.5rem;
+    background-color: #eeb0a7;
+    border: none;
+}
+#right-arrow{
+    padding: 1rem 0.5rem;
+    background-color: #e85b0f;
+    border: none;
+}
+.RG-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.RG-box{
+    height: 15rem;
+    width: 30rem;
+    margin: 2rem;
+    display: flex;
+    transition: 0.3s;
+}
+.RG-box:hover{
+    scale: 1.1;
+}
+@media screen and (max-width:1200px){
+    .RG-grid{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .RG-box{
+        height: 20rem;
+        width: 50rem;
+    }
+}
+.RG-box-cont{
+    padding: 1rem;
+}
+.RG-box-head{
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+.RG-box-theme{
+    color: #e85b0f;
+    margin:1rem 0rem;
+}
+.RG-box-para{
+    color: #4e5355;
+}
+.RG-box-btn{
+    margin-top: 1rem;
+    padding: 0.7rem 2rem;
+    color: #ffffff;
+    background-color: #e85b0f;
+    border: none;
+    cursor: pointer;
 }
