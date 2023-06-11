@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lucida Sans';
+}
+.main-container{
+    padding: 2rem 3rem;
+    background-image: url(./photos/futuristic-bg.png);
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo-list-main{
+    display: flex;
+    gap: 5rem;
+    cursor: pointer;
+}
+.main-group-list{
+    list-style-type: none;
+    display: flex;
+    color: #ffffff;
+    gap:3rem;
+    align-items: center;
+    font-size:larger;
+    font-weight: 300;
+}
+.main-list-item{
+    transition: 0.3s;
+}
+.main-list-item:hover{
+    scale: 1.1;
+    color: #e85b0f;
+}
+.Sign-In-main{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 700;
+}
+.Sign-up-btn{
+    padding: 1rem 2rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: #cd5529;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.4s;
+}
+.Sign-up-btn:hover{
+    border-radius: 20px;
+    scale: 1.2;
+}
+@media screen and (max-width:950px){
+    .Logo-list-main{
+        gap:2rem;
+    }
+    .main-group-list{
+        gap: 1rem;
+        font-size: medium;
+    }
+    .Sign-In-main{
+        display: none;
+    }
+}
+@media screen and (max-width:670px){
+    .main-group-list{
+        display: none;
+    }
+}
