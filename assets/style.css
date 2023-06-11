@@ -11,7 +11,12 @@ body{
 }
 .main-container{
     padding: 2rem 3rem;
-    background-image: url(./photos/futuristic-bg.png);
+    background:url(./photos/futuristic-bg.png) no-repeat center center ;
+    color: #ffffff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .nav-container{
     display: flex;
@@ -73,6 +78,81 @@ body{
 }
 @media screen and (max-width:670px){
     .main-group-list{
+        display: none;
+    }
+}
+
+/* main container-content part */
+.main-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15rem;
+}
+.main-content-1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+
+}
+#head-cont-1{
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+#head-para-1{
+    margin: 3rem 0rem;
+    font-size: 1.2rem;
+    color: #c6c8c9;
+}
+.get-start-btn{
+    padding: 1rem 2rem;
+    background-color: #cd5529;
+    border: 2px solid #cd5529 ;
+    color: #ffffff;
+    font-size: medium;
+    cursor: pointer;
+}
+.Learn-btn{
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    font-size: medium;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+@media screen and (max-width:450px){
+    .Learn-btn{
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+}
+.main-content-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3rem;
+    gap:4rem;
+    margin-top: 5rem;
+}
+
+#dash{
+    margin: 1rem 0rem;
+}
+#rightArrow{
+    margin: 1rem 0rem;
+    margin-left: 10rem;
+}
+.king-cont{
+    font-size: 2rem;
+    font-family: 600;
+}
+.playButton{
+    border: 4px solid rgb(1, 9, 16);
+}
+@media screen and (max-width:950px){
+    .main-content-2{
         display: none;
     }
 }
