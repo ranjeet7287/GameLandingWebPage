@@ -11,7 +11,7 @@ body{
 }
 .main-container{
     padding: 2rem 3rem;
-    background:url(./photos/futuristic-bg.png) no-repeat center center ;
+    background:url(./assets/photos/futuristic-bg.png) no-repeat center center ;
     color: #ffffff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -186,7 +186,7 @@ body{
     scale: 1.2;
 }
 #gdi-1{
-    background:url(./photos/Rectangle\ 18.png) no-repeat center center;
+    background:url("./assets/photos/image\ 2.png") no-repeat center center;
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
@@ -194,21 +194,21 @@ body{
     
 }
 #gdi-2{
-    background:url("./photos/image\ 4.png") no-repeat center center;
+    background:url("./assets/photos/image\ 4.png") no-repeat center center;
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
     background-size: cover;
 }
 #gdi-3{
-    background:url("./photos/image\ 3.png") no-repeat center center;
+    background:url("./assets/photos/image\ 3.png") no-repeat center center;
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
     background-size: cover;
 }
 #gdi-4{
-    background:url("./photos/Rectangle\ 56.png") no-repeat center center;
+    background:url("./assets/photos/Rectangle\ 56.png") no-repeat center center;
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
@@ -420,7 +420,7 @@ body{
     scale: 1.1;
 }
 .gamer{
-    background: url(./photos/imageedit.png) no-repeat center center ;
+    background: url(./assets/photos/imageedit.png) no-repeat center center ;
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
