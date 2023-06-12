@@ -439,3 +439,34 @@ body{
     color: #d3d3d3;
     margin: 1rem 0rem;
 }
+
+
+.fotter-container{
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+    color: #ffffff;
+
+}
+#fotter-media-para{
+    margin: 2rem 0rem;
+    color: #969594;
+}
+.footer-list-box{
+    margin: 2rem;
+    margin-left: 4rem;
+}
+#footer-list-box-head{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.fotter-group-list{
+    list-style-type: none;
+    color: #969594;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.footer-list-item{
+    margin: 10px;
+}
