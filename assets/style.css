@@ -361,3 +361,81 @@ body{
     border: none;
     cursor: pointer;
 }
+
+.MPG{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 4rem 2rem;
+
+}
+.MPG-imges{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.MPG-head{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+
+.mpg-cont{
+    color: #969594;
+    font-weight: 700;
+    display: flex;
+    margin: 2rem;
+}
+.mpg-para{
+    margin-top: 5rem;
+}
+.mpg-img-1{
+    margin: 1rem;
+    margin-left: 2rem;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+.mpg-img-1:hover{
+    scale: 1.1;
+}
+.mpg-img-2{
+    margin: 1rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    top: 30%;
+    transition: 0.3s;
+}
+.mpg-img-2:hover{
+    scale: 1.1;
+}
+.mpg-img-3{
+    margin: 1rem;
+    margin-top: 8rem;
+    margin-left: 2rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.mpg-img-3:hover{
+    scale: 1.1;
+}
+.gamer{
+    background: url(./photos/imageedit.png) no-repeat center center ;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 7rem;
+}
+#gamer-head{
+    font-size: 2rem;
+    font-weight: 900;
+}
+#gamer-para{
+    color: #d3d3d3;
+    margin: 1rem 0rem;
+}
